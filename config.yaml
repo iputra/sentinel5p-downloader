@@ -1,0 +1,12 @@
+dataHubService:
+  baseUrl: "https://s5phub.copernicus.eu/dhus"
+  username: "s5pguest"
+  password: "s5pguest"
+searchParams:
+  footprints: "Intersects(POLYGON((106.46171722904245 -6.019450475826943,107.18070021809233 -6.014423897663562,107.08088407394686 -7.567397860468233,106.36712979857668 -7.550051153202091,106.46171722904245 -6.019450475826943,106.46171722904245 -6.019450475826943)))"
+  ingestionStartDate: "2018-09-17T00:00:00.000Z"
+  ingestionEndDate: "2023-09-17T23:59:59.999Z"
+  platformname: "Sentinel-5"
+  processingmode: "Offline"
+  processinglevel: "L2"
+  producttype: "L2__NO2___"
